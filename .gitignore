@@ -1,0 +1,7 @@
+data/raw/
+maude.sqlite
+*.sqlite
+.Rhistory
+.Rproj.user/
+outputs/02_top_manufacturers.csv
+outputs/05_problem_codes.csv
