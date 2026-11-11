@@ -20,6 +20,10 @@ R reads the three files, keeps product code LOX (10,194 reports), and writes a s
 
 Charts: `outputs/spc_serious_proportion.png` and `outputs/spc_monthly_counts.png`.
 
+## Spot-check against the FDA web search
+
+For September 2025 (date received 1-30 Sep, product code LOX), this pipeline counts 148 unique reports (3 deaths, 10 injuries, 135 malfunctions). The FDA MAUDE web search returned 145 records for the same filters, a difference of 3 (about 2%). There are no duplicate report keys in the pipeline output, so the cause of the difference is not yet identified.
+
 ## Limitations (read before interpreting)
 - MAUDE has no sales or units-in-use figures, so complaint rates cannot be calculated. FDA states that MAUDE is not intended to compare event rates across devices.
 - Reports are voluntary or delayed, can be duplicated, and a rise in reports does not prove a rise in device problems. Publicity and recalls also change reporting.
